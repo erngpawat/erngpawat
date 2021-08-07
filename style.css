@@ -1,285 +1,279 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
 
 /*iPad Portrait*/
 @media screen and (min-width: 768px) {
-    body {
-        width: 90%;
-        margin-top: 4rem;
-        margin-left: auto;
-        margin-right: auto;
-    }
+	body {
+		width: 90%;
+		margin-top: 4rem;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
-    body main {
-        margin-top: 7rem;
-    }
+	body main {
+		margin-top: 7rem;
+	}
 
-    body footer {
-        margin-top: 10rem;
-    }
+	body footer {
+		margin-top: 10rem;
+	}
 }
 
 /*iPad Landscape*/
 @media screen and (min-width: 1024px) {
-    
-    body {
-        width: 80%;
-        margin: 0 auto;
-        height: 90vh;
-    }
+	body {
+		width: 80%;
+		margin: 0 auto;
+		height: 90vh;
+	}
 
-    body nav img {
-        padding-top: 2rem;
-    }
+	body nav img {
+		padding-top: 2rem;
+	}
 
-    body main {
-        margin-top: 2rem;
-    }
+	body main {
+		margin-top: 2rem;
+	}
 
-    body footer {
-        position: absolute;
-        margin-left: 0;
-        padding: 0 0 0 1rem;
-        bottom: 5rem;
-    }
+	body footer {
+		position: absolute;
+		margin-left: 0;
+		padding: 0 0 0 1rem;
+		bottom: 5rem;
+	}
 }
 
 /*after iPad Landscape for desktop*/
 @media screen and (min-width: 1025px) {
-    
-    body {
-        width: 75%;
-        margin: 0 auto;
-        height: 90vh;
-    }
+	body {
+		width: 75%;
+		margin: 0 auto;
+		height: 90vh;
+	}
 
-    body nav img {
-        padding-top: 2rem;
-    }
+	body nav img {
+		padding-top: 2rem;
+	}
 
-    body main {
-        margin-top: 6rem;
-    }
+	body main {
+		margin-top: 6rem;
+	}
 
-    body footer {
-        position: absolute;
-        margin-left: 0;
-        padding: 0 0 0 1rem;
-        bottom: 5rem;
-    }
+	body footer {
+		position: absolute;
+		margin-left: 0;
+		padding: 0 0 0 1rem;
+		bottom: 5rem;
+	}
 }
 
 /*iPad Pro Portrait*/
 @media screen and (min-height: 1366px) {
-    
-    body {
-        width: 80%;
-        margin: 0 auto;
-        height: 90vh;
-    }
+	body {
+		width: 80%;
+		margin: 0 auto;
+		height: 90vh;
+	}
 
-    body nav img {
-        height: 8rem;
-        padding-top: 7rem;
-    }
+	body nav img {
+		height: 8rem;
+		padding-top: 7rem;
+	}
 
-    body main {
-        margin-top: 14rem;
-    }
+	body main {
+		margin-top: 14rem;
+	}
 
-    body main h2 {
-        font-size: 45px;
-    }
+	body main h2 {
+		font-size: 45px;
+	}
 
-    body footer {
-        position: absolute;
-        margin-left: 0;
-        padding: 0 0 0 1rem;
-        bottom: 8rem;
-    }
+	body footer {
+		position: absolute;
+		margin-left: 0;
+		padding: 0 0 0 1rem;
+		bottom: 8rem;
+	}
 }
 
 /*iPad Pro Landscape*/
 @media screen and (min-width: 1366px) {
-    
-    body {
-        width: 70%;
-        margin: 0 auto;
-        height: 90vh;
-    }
+	body {
+		width: 70%;
+		margin: 0 auto;
+		height: 90vh;
+	}
 
-    body nav img {
-        height: 8rem;
-        padding-top: 5rem;
-    }
+	body nav img {
+		height: 8rem;
+		padding-top: 5rem;
+	}
 
-    body main {
-        margin-top: 8rem;
-    }
+	body main {
+		margin-top: 8rem;
+	}
 
-    body main h2 {
-        font-size: 45px;
-    }
+	body main h2 {
+		font-size: 45px;
+	}
 
-    body footer {
-        position: absolute;
-        margin-left: 0;
-        padding: 0 0 0 1rem;
-        bottom: 6rem;
-    }
+	body footer {
+		position: absolute;
+		margin-left: 0;
+		padding: 0 0 0 1rem;
+		bottom: 6rem;
+	}
 }
 /*after iPad Pro landscape for desktop*/
 @media screen and (min-width: 1367px) {
-    
-    body {
-        width: 70%;
-        margin: 0 auto;
-        height: 90vh;
-    }
+	body {
+		width: 70%;
+		margin: 0 auto;
+		height: 90vh;
+	}
 
-    body nav img {
-        height: 8rem;
-        padding-top: 3rem;
-    }
+	body nav img {
+		height: 8rem;
+		padding-top: 3rem;
+	}
 
-    body main {
-        margin-top: 3rem;
-    }
+	body main {
+		margin-top: 3rem;
+	}
 
-    body main h2 {
-        font-size: 45px;
-    }
+	body main h2 {
+		font-size: 45px;
+	}
 
-    body footer {
-        position: absolute;
-        margin-left: 0;
-        padding: 0 0 0 1rem;
-        bottom: 6rem;
-    }
+	body footer {
+		position: absolute;
+		margin-left: 0;
+		padding: 0 0 0 1rem;
+		bottom: 6rem;
+	}
 }
 
 /*Desktop*/
 @media screen and (min-width: 1380px) {
-    
-    body {
-        width: 60%;
-        margin: 0 auto;
-        height: 90vh;
-    }
+	body {
+		width: 60%;
+		margin: 0 auto;
+		height: 90vh;
+	}
 
-    body nav img {
-        height: 8rem;
-        padding-top: 1rem;
-    }
+	body nav img {
+		height: 8rem;
+		padding-top: 1rem;
+	}
 
-    body main {
-        margin-top: 3rem;
-    }
+	body main {
+		margin-top: 3rem;
+	}
 
-    body main h2 {
-        font-size: 45px;
-    }
+	body main h2 {
+		font-size: 45px;
+	}
 
-    body footer {
-        position: absolute;
-        margin-left: 0;
-        padding: 0 0 0 1rem;
-        bottom: 3rem;
-    }
+	body footer {
+		position: absolute;
+		margin-left: 0;
+		padding: 0 0 0 1rem;
+		bottom: 3rem;
+	}
 }
 
 /*Desktop*/
 @media screen and (min-width: 1548px) {
-    
-    body {
-        width: 60%;
-        margin: 0 auto;
-        height: 90vh;
-    }
+	body {
+		width: 60%;
+		margin: 0 auto;
+		height: 90vh;
+	}
 
-    body nav img {
-        height: 8rem;
-        padding-top: 1rem;
-    }
+	body nav img {
+		height: 8rem;
+		padding-top: 1rem;
+	}
 
-    body main {
-        margin-top: 5rem;
-    }
+	body main {
+		margin-top: 5rem;
+	}
 
-    body main h2 {
-        font-size: 45px;
-    }
+	body main h2 {
+		font-size: 45px;
+	}
 
-    body footer {
-        position: absolute;
-        margin-left: 0;
-        padding: 0 0 0 1rem;
-        bottom: 3rem;
-    }
+	body footer {
+		position: absolute;
+		margin-left: 0;
+		padding: 0 0 0 1rem;
+		bottom: 3rem;
+	}
 }
 
 /*iPhone X*/
 html {
-    background-color: black;
+	background-color: black;
 }
 
 a:link {
-    color: white;
-    text-decoration: none;
+	color: white;
+	text-decoration: none;
 }
-  
+
 a:visited {
-    color: white;
-    text-decoration: none;
+	color: white;
+	text-decoration: none;
 }
 
 h1 {
-    font-size: 45px;
+	font-size: 45px;
 }
 
 h2 {
-    font-size: 35px;
+	font-size: 35px;
 }
 
 h3 {
-    font-size: 22px;
+	font-size: 22px;
 }
 
 p {
-    font-size: 18px;
+	font-size: 18px;
+	font-weight: 400px;
 }
 
 nav img {
-    display: block;
-    height: 6rem;
-    margin-top: 1.5rem;
-    margin-left: auto;
-    margin-right: auto;
+	display: block;
+	height: 6rem;
+	margin-top: 1.5rem;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 main {
-    font-family: 'Merriweather Sans', sans-serif;  
-    color: white;
-    margin-top: 2.5rem;
-    margin-right: 1rem;
-    margin-left: 1rem;
+	font-family: "Noto Sans", sans-serif;
+	color: white;
+	margin-top: 2.5rem;
+	margin-right: 1rem;
+	margin-left: 1rem;
 }
 
 footer {
-    font-family: 'Merriweather Sans', sans-serif;
-    font-weight: 300;
-    margin-top: 10rem;
-    margin-right: 1rem;
-    margin-left: 1rem;
-    padding-bottom: 2rem;
-    background-color: black;
-    color: white;
+	font-family: "Noto Sans", sans-serif;
+	font-weight: 400;
+	margin-top: 10rem;
+	margin-right: 1rem;
+	margin-left: 1rem;
+	padding-bottom: 2rem;
+	background-color: black;
+	color: white;
 }
 
 p {
-    margin: 0;
+	margin: 0;
 }
 
 i {
-    margin-right: 0.75rem;
-    height: 1rem;
+	margin-right: 0.75rem;
+	height: 1rem;
 }
