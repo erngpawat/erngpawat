@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;500&display=swap');
 
 /*iPad Portrait*/
 @media screen and (min-width: 768px) {
@@ -237,11 +237,15 @@ h1 {
 }
 
 h2 {
-    font-size: 34px;
+    font-size: 35px;
 }
 
 h3 {
     font-size: 22px;
+}
+
+p {
+    font-size: 18px;
 }
 
 nav img {
@@ -253,7 +257,7 @@ nav img {
 }
 
 main {
-    font-family: 'Rubik', sans-serif;  
+    font-family: 'Merriweather Sans', sans-serif;  
     color: white;
     margin-top: 2.5rem;
     margin-right: 1rem;
@@ -261,7 +265,7 @@ main {
 }
 
 footer {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
     font-weight: 300;
     margin-top: 10rem;
     margin-right: 1rem;
@@ -271,6 +275,11 @@ footer {
     color: white;
 }
 
+p {
+    margin: 0;
+}
+
 i {
     margin-right: 0.75rem;
+    height: 1rem;
 }
