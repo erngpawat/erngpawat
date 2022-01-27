@@ -140,9 +140,8 @@ footer {
 
 	body {
 		width: 90%;
-		padding-top: 4rem;
+		padding-top: 3rem;
 		margin-top: 0rem;
-		margin-bottom: 4rem;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -165,7 +164,7 @@ footer {
 	}
 
 	body footer {
-		margin-bottom: 4rem;
+		margin-bottom: 3rem;
 	}
 }
 
@@ -195,22 +194,9 @@ footer {
 		line-height: 20px;
 	}
 
-	body {
-		width: 90%;
-		padding-top: 4rem;
-		margin-top: 0rem;
-		margin-bottom: 4rem;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
 	body main {
 		margin-top: 4rem;
 		margin-bottom: 7rem;
-	}
-
-	body footer {
-		margin-bottom: 4rem;
 	}
 }
 
@@ -220,7 +206,6 @@ footer {
 	body {
 		width: 80%;
 		padding-top: 3rem;
-		margin-top: 0rem;
 		margin-bottom: 3rem;
 	}
 
@@ -243,7 +228,7 @@ footer {
 	}
 
 	body footer {
-		margin-bottom: 4rem;
+		margin-bottom: 3rem;
 	}
 }
 
@@ -266,10 +251,6 @@ footer {
 		width: 45%;
 		padding-left: 1rem;
 		flex-grow: 1;
-	}
-
-	body footer {
-		margin-bottom: 4rem;
 	}
 }
 
