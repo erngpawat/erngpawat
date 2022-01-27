@@ -3,8 +3,10 @@ html {
 	background-color: black;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap");
+
 h1 {
-	font-family: "Tahoma";
+	font-family: "Libre Franklin", sans-serif;
 	font-size: 30px;
 	font-style: normal;
 	font-variant: normal;
@@ -17,7 +19,7 @@ h1 {
 }
 
 h3 /*for footer*/ {
-	font-family: "Tahoma";
+	font-family: "Libre Franklin", sans-serif;
 	font-size: 12px;
 	font-style: normal;
 	font-variant: normal;
@@ -26,7 +28,7 @@ h3 /*for footer*/ {
 }
 
 p {
-	font-family: "Tahoma";
+	font-family: "Libre Franklin", sans-serif;
 	font-size: 15px;
 	font-style: normal;
 	font-variant: normal;
