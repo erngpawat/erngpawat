@@ -1,7 +1,144 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+/*iPhone 12 Pro*/
+html {
+	background-color: black;
+}
 
-/*iPad Portrait*/
+h1 {
+	font-family: "Tahoma";
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 38px;
+}
+
+.underline {
+	text-decoration: underline #ff0000;
+}
+
+h3 /*for footer*/ {
+	font-family: "Tahoma";
+	font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 12px;
+}
+
+p {
+	font-family: "Tahoma";
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 22px;
+	margin: 0;
+}
+
+.blacktext {
+	color: black;
+	background-color: white;
+	border-radius: 0.3rem;
+}
+
+.redtext {
+	color: red;
+	background-color: white;
+	border-radius: 0.3rem;
+}
+
+.redtext2 {
+	color: red;
+}
+
+.purdue {
+	color: #cfb991;
+}
+
+.spotify {
+	color: #1ed760;
+}
+
+.photos {
+	color: rgb(248, 226, 23);
+}
+
+.books {
+	color: white;
+}
+
+nav img {
+	display: block;
+	height: 5rem;
+	margin-top: 1.5rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+main {
+	color: white;
+	margin-top: 2rem;
+	margin-right: 1rem;
+	margin-left: 1rem;
+}
+
+footer {
+	text-align: center;
+	color: white;
+	margin-top: 2rem;
+	margin-right: 1rem;
+	margin-left: 1rem;
+	margin-bottom: 2rem;
+	background-color: black;
+}
+
+.contact-links {
+	color: white;
+}
+
+/*----------------------------------------------------------------*/
+
+/*Galaxy S20 Ultra*/
+@media screen and (min-width: 412px) {
+	body {
+		margin-right: 1rem;
+		margin-left: 1rem;
+	}
+}
+
+/*iPad Mini*/
 @media screen and (min-width: 768px) {
+	h1 {
+		font-family: "Tahoma";
+		font-size: 50px;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 400;
+		line-height: 63px;
+	}
+
+	p {
+		font-family: "Tahoma";
+		font-size: 26px;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 400;
+		line-height: 38px;
+	}
+
+	h3 /*for footer*/ {
+		font-family: "Tahoma";
+		font-size: 20px;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 400;
+		line-height: 20px;
+	}
+
+	nav img {
+		height: 8rem;
+	}
+
 	body {
 		width: 90%;
 		margin-top: 4rem;
@@ -10,188 +147,138 @@
 	}
 
 	body main {
-		margin-top: 7rem;
+		margin-top: 4rem;
+		margin-bottom: 7rem;
+	}
+
+	.embed1 {
+		width: 75%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.embed2 {
+		width: 75%;
+		margin-right: auto;
+		margin-left: auto;
 	}
 
 	body footer {
-		margin-top: 10rem;
+		margin-bottom: 4rem;
 	}
 }
 
+/*iPad Portrait*/
+@media screen and (min-width: 820px) {
+	h1 {
+		font-family: "Tahoma";
+		font-size: 50px;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 400;
+		line-height: 63px;
+	}
+
+	p {
+		font-family: "Tahoma";
+		font-size: 26px;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 400;
+		line-height: 38px;
+	}
+
+	h3 /*for footer*/ {
+		font-family: "Tahoma";
+		font-size: 20px;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 400;
+		line-height: 20px;
+	}
+
+	nav img {
+		height: 8rem;
+	}
+
+	body {
+		width: 90%;
+		margin-top: 4rem;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	body main {
+		margin-top: 4rem;
+		margin-bottom: 7rem;
+	}
+
+	body footer {
+		margin-bottom: 4rem;
+	}
+}
+
+/*Content below starts to look like desktop; embeds are split*/
 /*iPad Landscape*/
 @media screen and (min-width: 1024px) {
 	body {
 		width: 80%;
-		margin: 0 auto;
-		height: 90vh;
-	}
-
-	body nav img {
-		padding-top: 2rem;
+		margin-top: 3rem;
 	}
 
 	body main {
 		margin-top: 2rem;
 	}
 
-	body footer {
-		position: absolute;
-		margin-left: 0;
-		padding: 0 0 0 1rem;
-		bottom: 5rem;
-	}
-}
-
-/*after iPad Landscape for desktop*/
-@media screen and (min-width: 1025px) {
-	body {
-		width: 75%;
-		margin: 0 auto;
-		height: 90vh;
+	.container {
+		display: flex;
 	}
 
-	body nav img {
-		padding-top: 2rem;
+	.embed1 {
+		width: 50%;
+		padding-right: 0.7rem;
 	}
 
-	body main {
-		margin-top: 6rem;
+	.embed2 {
+		width: 50%;
+		padding-left: 0.7rem;
 	}
 
 	body footer {
-		position: absolute;
-		margin-left: 0;
-		padding: 0 0 0 1rem;
-		bottom: 5rem;
-	}
-}
-
-/*iPad Pro Portrait*/
-@media screen and (min-height: 1366px) {
-	body {
-		width: 80%;
-		margin: 0 auto;
-		height: 90vh;
-	}
-
-	body nav img {
-		height: 8rem;
-		padding-top: 7rem;
-	}
-
-	body main {
-		margin-top: 14rem;
-	}
-
-	body main h2 {
-		font-size: 45px;
-	}
-
-	body footer {
-		position: absolute;
-		margin-left: 0;
-		padding: 0 0 0 1rem;
-		bottom: 8rem;
+		margin-bottom: 4rem;
 	}
 }
 
 /*iPad Pro Landscape*/
 @media screen and (min-width: 1366px) {
 	body {
-		width: 70%;
-		margin: 0 auto;
-		height: 90vh;
+		width: 75%;
 	}
 
-	body nav img {
-		height: 8rem;
-		padding-top: 5rem;
+	.container {
+		display: flex;
 	}
 
-	body main {
-		margin-top: 8rem;
+	.embed1 {
+		width: 45%;
+		padding-right: 1rem;
 	}
 
-	body main h2 {
-		font-size: 45px;
-	}
-
-	body footer {
-		position: absolute;
-		margin-left: 0;
-		padding: 0 0 0 1rem;
-		bottom: 6rem;
-	}
-}
-/*after iPad Pro landscape for desktop*/
-@media screen and (min-width: 1367px) {
-	body {
-		width: 70%;
-		margin: 0 auto;
-		height: 90vh;
-	}
-
-	body nav img {
-		height: 8rem;
-		padding-top: 3rem;
-	}
-
-	body main {
-		margin-top: 3rem;
-	}
-
-	body main h2 {
-		font-size: 45px;
+	.embed2 {
+		width: 45%;
+		padding-left: 1rem;
+		flex-grow: 1;
 	}
 
 	body footer {
-		position: absolute;
-		margin-left: 0;
-		padding: 0 0 0 1rem;
-		bottom: 6rem;
+		margin-bottom: 4rem;
 	}
 }
 
-/*Desktop*/
-@media screen and (min-width: 1380px) {
+/*Desktop*/ /*Used to be 1548px*/
+@media screen and (min-width: 1650px) {
 	body {
 		width: 60%;
-		margin: 0 auto;
-		height: 90vh;
-	}
-
-	body nav img {
-		height: 8rem;
-		padding-top: 1rem;
-	}
-
-	body main {
-		margin-top: 3rem;
-	}
-
-	body main h2 {
-		font-size: 45px;
-	}
-
-	body footer {
-		position: absolute;
-		margin-left: 0;
-		padding: 0 0 0 1rem;
-		bottom: 3rem;
-	}
-}
-
-/*Desktop*/
-@media screen and (min-width: 1548px) {
-	body {
-		width: 60%;
-		margin: 0 auto;
-		height: 90vh;
-	}
-
-	body nav img {
-		height: 8rem;
-		padding-top: 1rem;
 	}
 
 	body main {
@@ -202,78 +289,7 @@
 		font-size: 45px;
 	}
 
-	body footer {
-		position: absolute;
-		margin-left: 0;
-		padding: 0 0 0 1rem;
-		bottom: 3rem;
+	footer {
+		margin-bottom: 8rem;
 	}
-}
-
-/*iPhone X*/
-html {
-	background-color: black;
-}
-
-a:link {
-	color: white;
-	text-decoration: none;
-}
-
-a:visited {
-	color: white;
-	text-decoration: none;
-}
-
-h1 {
-	font-size: 45px;
-}
-
-h2 {
-	font-size: 35px;
-}
-
-h3 {
-	font-size: 22px;
-}
-
-p {
-	font-size: 18px;
-	font-weight: 400px;
-}
-
-nav img {
-	display: block;
-	height: 6rem;
-	margin-top: 1.5rem;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-main {
-	font-family: "Noto Sans", sans-serif;
-	color: white;
-	margin-top: 2.5rem;
-	margin-right: 1rem;
-	margin-left: 1rem;
-}
-
-footer {
-	font-family: "Noto Sans", sans-serif;
-	font-weight: 400;
-	margin-top: 10rem;
-	margin-right: 1rem;
-	margin-left: 1rem;
-	padding-bottom: 2rem;
-	background-color: black;
-	color: white;
-}
-
-p {
-	margin: 0;
-}
-
-i {
-	margin-right: 0.75rem;
-	height: 1rem;
 }
