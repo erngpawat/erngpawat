@@ -69,6 +69,11 @@ p {
 	color: white;
 }
 
+body {
+	margin-top: 0rem;
+	padding-top: 1.75rem;
+}
+
 nav img {
 	display: block;
 	height: 5rem;
@@ -103,8 +108,8 @@ footer {
 /*Galaxy S20 Ultra*/
 @media screen and (min-width: 412px) {
 	body {
-		margin-right: 1rem;
-		margin-left: 1rem;
+		margin-right: 0.8rem;
+		margin-left: 0.8rem;
 	}
 }
 
