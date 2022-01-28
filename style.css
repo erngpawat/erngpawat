@@ -69,6 +69,10 @@ p {
 	color: white;
 }
 
+.emojis {
+	letter-spacing: 0.2rem;
+}
+
 body {
 	margin-top: 0rem;
 	padding-top: 1.75rem;
