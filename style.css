@@ -135,6 +135,24 @@
 	}
 }
 
+/*iPhone SE Landscape*/
+@media screen and (min-width: 667px) {
+	.container {
+		display: flex;
+	}
+
+	.embed1 {
+		width: 50%;
+		padding-right: 0.7rem;
+	}
+
+	.embed2 {
+		width: 50%;
+		padding-left: 0.7rem;
+		flex-grow: 2;
+	}
+}
+
 /*iPad Mini Portrait*/
 @media screen and (min-width: 768px) {
 	h1 {
@@ -187,14 +205,11 @@
 	}
 
 	.embed1 {
-		width: 50%;
 		padding-right: 0.7rem;
 	}
 
 	.embed2 {
-		width: 50%;
 		padding-left: 0.7rem;
-		flex-grow: 2;
 	}
 
 	body footer {
@@ -254,12 +269,10 @@
 	}
 
 	.embed1 {
-		width: 47%;
 		padding-right: 2rem;
 	}
 
 	.embed2 {
-		width: 47%;
 		padding-left: 2rem;
 	}
 }
@@ -276,16 +289,6 @@
 
 	body main h2 {
 		font-size: 45px;
-	}
-
-	.embed1 {
-		width: 50%;
-		padding-right: 2rem;
-	}
-
-	.embed2 {
-		width: 50%;
-		padding-left: 2rem;
 	}
 
 	footer {
