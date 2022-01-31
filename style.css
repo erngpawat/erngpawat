@@ -143,12 +143,12 @@
 
 	.embed1 {
 		width: 50%;
-		padding-right: 0.7rem;
+		padding-right: 0.75rem;
 	}
 
 	.embed2 {
 		width: 50%;
-		padding-left: 0.7rem;
+		padding-left: 0.75rem;
 		flex-grow: 2;
 	}
 }
@@ -205,11 +205,11 @@
 	}
 
 	.embed1 {
-		padding-right: 0.7rem;
+		padding-right: 1rem;
 	}
 
 	.embed2 {
-		padding-left: 0.7rem;
+		padding-left: 1rem;
 	}
 
 	body footer {
@@ -246,6 +246,14 @@
 	.emojis {
 		letter-spacing: 0.45rem;
 	}
+
+	.embed1 {
+		padding-right: 1.25rem;
+	}
+
+	.embed2 {
+		padding-left: 1.25rem;
+	}
 }
 
 /*Content below starts to look like desktop*/
@@ -269,11 +277,11 @@
 	}
 
 	.embed1 {
-		padding-right: 2rem;
+		padding-right: 1.5rem;
 	}
 
 	.embed2 {
-		padding-left: 2rem;
+		padding-left: 1.5rem;
 	}
 }
 
