@@ -194,6 +194,7 @@
 	.embed2 {
 		width: 50%;
 		padding-left: 0.7rem;
+		flex-grow: 2;
 	}
 
 	body footer {
@@ -228,7 +229,7 @@
 	}
 }
 
-/*Content below starts to look like desktop; embeds are split*/
+/*Content below starts to look like desktop*/
 /*iPad Landscape*/
 @media screen and (min-width: 1024px) {
 	body {
@@ -248,23 +249,19 @@
 		width: 75%;
 	}
 
-	.container {
-		display: flex;
-	}
-
 	.embed1 {
-		width: 45%;
-		padding-right: 1rem;
+		width: 47%;
+		padding-right: 2rem;
 	}
 
 	.embed2 {
-		width: 45%;
-		padding-left: 1rem;
+		width: 47%;
+		padding-left: 2rem;
 	}
 }
 
-/*Desktop*/ /*Used to be 1548px*/
-@media screen and (min-width: 1650px) {
+/*Desktop*/ /*Used to be 1650px*/
+@media screen and (min-width: 1548px) {
 	body {
 		width: 60%;
 	}
@@ -275,6 +272,16 @@
 
 	body main h2 {
 		font-size: 45px;
+	}
+
+	.embed1 {
+		width: 50%;
+		padding-right: 2rem;
+	}
+
+	.embed2 {
+		width: 50%;
+		padding-left: 2rem;
 	}
 
 	footer {
