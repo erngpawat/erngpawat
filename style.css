@@ -1,4 +1,4 @@
-/*Galaxy S8*/
+/*Galaxy S8+ */
 /*Width: 360px*/
 @media screen and (min-width: 360px) {
 	html {
@@ -72,7 +72,7 @@
 	}
 
 	.emojis {
-		letter-spacing: 0.1rem;
+		letter-spacing: 0.01rem;
 	}
 
 	.section-divider {
@@ -135,7 +135,7 @@
 	}
 }
 
-/*iPad Mini*/
+/*iPad Mini Portrait*/
 @media screen and (min-width: 768px) {
 	h1 {
 		font-size: 50px;
@@ -226,6 +226,10 @@
 		font-variant: normal;
 		font-weight: 400;
 		line-height: 20px;
+	}
+
+	.emojis {
+		letter-spacing: 0.45rem;
 	}
 }
 
