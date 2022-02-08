@@ -285,7 +285,37 @@
 	}
 }
 
-/*Desktop*/ /*Used to be 1650px*/
+/*Desktop*/
+@media screen and (min-width: 1410px) {
+	body {
+		width: 67%;
+	}
+
+	.embed1 {
+		padding-right: 1.5rem;
+	}
+
+	.embed2 {
+		padding-left: 1.5rem;
+	}
+}
+
+/*Desktop MacBook 13in Screen*/
+@media screen and (min-width: 1440px) {
+	body {
+		width: 65.5%;
+	}
+
+	.embed1 {
+		padding-right: 1.5rem;
+	}
+
+	.embed2 {
+		padding-left: 1.5rem;
+	}
+}
+
+/*Desktop*/
 @media screen and (min-width: 1548px) {
 	body {
 		width: 61%;
