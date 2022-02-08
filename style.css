@@ -305,14 +305,6 @@
 	body {
 		width: 65.5%;
 	}
-
-	.embed1 {
-		padding-right: 1.5rem;
-	}
-
-	.embed2 {
-		padding-left: 1.5rem;
-	}
 }
 
 /*Desktop*/
@@ -327,10 +319,6 @@
 
 	body main h2 {
 		font-size: 45px;
-	}
-
-	footer {
-		margin-bottom: 8rem;
 	}
 }
 
