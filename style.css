@@ -196,7 +196,7 @@
 	}
 
 	body main {
-		margin-top: 4rem;
+		margin-top: 2rem;
 		margin-bottom: 7rem;
 	}
 
@@ -273,7 +273,7 @@
 /*iPad Pro Landscape*/
 @media screen and (min-width: 1366px) {
 	body {
-		width: 75%;
+		width: 68%;
 	}
 
 	.embed1 {
@@ -288,7 +288,7 @@
 /*Desktop*/ /*Used to be 1650px*/
 @media screen and (min-width: 1548px) {
 	body {
-		width: 60%;
+		width: 61%;
 	}
 
 	body main {
@@ -301,5 +301,11 @@
 
 	footer {
 		margin-bottom: 8rem;
+	}
+}
+
+@media screen and (min-width: 1700px) {
+	body {
+		width: 56%;
 	}
 }
