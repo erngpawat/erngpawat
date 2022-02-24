@@ -2,7 +2,7 @@
 /*Width: 360px*/
 @media screen and (min-width: 360px) {
 	html {
-		background-color: black;
+		background-color: #191919;
 		scroll-behavior: smooth;
 	}
 
@@ -107,7 +107,6 @@
 		margin-right: 1rem;
 		margin-left: 1rem;
 		margin-bottom: 1.75rem;
-		background-color: black;
 	}
 
 	.contact-links {
@@ -137,6 +136,12 @@
 
 /*iPhone SE Landscape*/
 @media screen and (min-width: 667px) {
+	body {
+		width: 85%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
 	.container {
 		display: flex;
 	}
@@ -156,31 +161,31 @@
 /*iPad Mini Portrait*/
 @media screen and (min-width: 768px) {
 	h1 {
-		font-size: 50px;
+		font-size: 36px;
 		font-style: normal;
 		font-variant: normal;
 		font-weight: 400;
-		line-height: 63px;
+		line-height: 55px;
 	}
 
 	p {
-		font-size: 26px;
+		font-size: 16px;
 		font-style: normal;
 		font-variant: normal;
 		font-weight: 400;
-		line-height: 38px;
+		line-height: 25px;
 	}
 
 	h3 /*for footer*/ {
-		font-size: 20px;
+		font-size: 14px;
 		font-style: normal;
 		font-variant: normal;
 		font-weight: 400;
-		line-height: 20px;
+		line-height: 12px;
 	}
 
 	nav img {
-		height: 8rem;
+		height: 7rem;
 	}
 
 	.emojis {
@@ -219,28 +224,33 @@
 
 /*iPad Portrait*/
 @media screen and (min-width: 820px) {
+	body {
+		width: 85%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 	h1 {
-		font-size: 50px;
+		font-size: 36px;
 		font-style: normal;
 		font-variant: normal;
 		font-weight: 400;
-		line-height: 63px;
+		line-height: 55px;
 	}
 
 	p {
-		font-size: 26px;
+		font-size: 16px;
 		font-style: normal;
 		font-variant: normal;
 		font-weight: 400;
-		line-height: 38px;
+		line-height: 24px;
 	}
 
 	h3 /*for footer*/ {
-		font-size: 20px;
+		font-size: 14px;
 		font-style: normal;
 		font-variant: normal;
 		font-weight: 400;
-		line-height: 20px;
+		line-height: 12px;
 	}
 
 	.emojis {
@@ -260,7 +270,7 @@
 /*iPad Landscape*/
 @media screen and (min-width: 1024px) {
 	body {
-		width: 80%;
+		width: 66.8%;
 		padding-top: 3rem;
 		margin-bottom: 3rem;
 	}
@@ -270,60 +280,63 @@
 	}
 }
 
+/*Transition*/
+@media screen and (min-width: 1200px) {
+	body {
+		width: 57%;
+	}
+}
+
 /*iPad Pro Landscape*/
 @media screen and (min-width: 1366px) {
 	body {
-		width: 70%;
+		width: 50.1%;
 	}
 
 	.embed1 {
-		padding-right: 1.5rem;
+		padding-right: 1rem;
 	}
 
 	.embed2 {
-		padding-left: 1.5rem;
+		padding-left: 1rem;
 	}
 }
 
 /*Desktop*/
 @media screen and (min-width: 1410px) {
 	body {
-		width: 67%;
-	}
-
-	.embed1 {
-		padding-right: 1.5rem;
-	}
-
-	.embed2 {
-		padding-left: 1.5rem;
+		width: 48.5%;
 	}
 }
 
 /*Desktop MacBook 13in Screen*/
 @media screen and (min-width: 1440px) {
 	body {
-		width: 65.5%;
+		width: 47.5%;
+	}
+	.embed1 {
+		padding-right: 0.75rem;
+	}
+
+	.embed2 {
+		padding-left: 0.75rem;
 	}
 }
 
 /*Desktop*/
 @media screen and (min-width: 1548px) {
 	body {
-		width: 61%;
-	}
-
-	body main {
-		margin-top: 4rem;
-	}
-
-	body main h2 {
-		font-size: 45px;
+		width: 44.25%;
 	}
 }
 
 @media screen and (min-width: 1700px) {
 	body {
-		width: 56%;
+		width: 40.3%;
+	}
+	@media screen and (min-width: 1920px) {
+		body {
+			width: 35.7%;
+		}
 	}
 }
