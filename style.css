@@ -229,29 +229,6 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
-	h1 {
-		font-size: 36px;
-		font-style: normal;
-		font-variant: normal;
-		font-weight: 400;
-		line-height: 55px;
-	}
-
-	p {
-		font-size: 16px;
-		font-style: normal;
-		font-variant: normal;
-		font-weight: 400;
-		line-height: 24px;
-	}
-
-	h3 /*for footer*/ {
-		font-size: 14px;
-		font-style: normal;
-		font-variant: normal;
-		font-weight: 400;
-		line-height: 12px;
-	}
 
 	.emojis {
 		letter-spacing: 0.45rem;
@@ -278,6 +255,27 @@
 	body main {
 		margin-top: 2rem;
 	}
+	.embed1 {
+		padding-right: 1.15rem;
+	}
+
+	.embed2 {
+		padding-left: 1.15rem;
+	}
+}
+
+/*iPad Air Landscape*/
+@media screen and (min-width: 1180px) {
+	body {
+		width: 58%;
+	}
+	.embed1 {
+		padding-right: 1rem;
+	}
+
+	.embed2 {
+		padding-left: 1rem;
+	}
 }
 
 /*Transition*/
@@ -291,14 +289,6 @@
 @media screen and (min-width: 1366px) {
 	body {
 		width: 50.1%;
-	}
-
-	.embed1 {
-		padding-right: 1rem;
-	}
-
-	.embed2 {
-		padding-left: 1rem;
 	}
 }
 
