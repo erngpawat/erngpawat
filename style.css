@@ -243,6 +243,13 @@
 	}
 }
 
+/*iPad Air Portrait*/
+@media screen and (min-width: 834px) {
+	body {
+		width: 82%;
+	}
+}
+
 /*Content below starts to look like desktop*/
 /*iPad Landscape*/
 @media screen and (min-width: 1024px) {
@@ -265,9 +272,9 @@
 }
 
 /*iPad Air Landscape*/
-@media screen and (min-width: 1180px) {
+@media screen and (min-width: 1112px) {
 	body {
-		width: 58%;
+		width: 61.5%;
 	}
 	.embed1 {
 		padding-right: 1rem;
@@ -275,6 +282,11 @@
 
 	.embed2 {
 		padding-left: 1rem;
+	}
+}
+@media screen and (min-width: 1180px) {
+	body {
+		width: 58%;
 	}
 }
 
