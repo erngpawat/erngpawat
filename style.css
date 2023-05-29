@@ -147,6 +147,7 @@
 }
 
 /*iPhone SE Landscape*/
+/*Width: 667px*/
 @media screen and (min-width: 667px) {
 	body {
 		width: 85%;
