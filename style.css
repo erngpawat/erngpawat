@@ -112,6 +112,22 @@
 
 /*----------------------------------------------------------------*/
 
+/*iPhone SE*/
+/*Width: 375px*/
+@media screen and (min-width: 375px) {
+	.emojis {
+		letter-spacing: 0.2rem;
+	}
+
+	.embed1 {
+		padding-bottom: 0.75rem;
+	}
+
+	.embed2 {
+		padding-top: 0.75rem;
+	}
+}
+
 /*iPhone 12 Pro*/
 /*Width: 390px*/
 @media screen and (min-width: 390px) {
@@ -145,11 +161,13 @@
 	.embed1 {
 		width: 50%;
 		padding-right: 0.75rem;
+		padding-bottom: 0;
 	}
 
 	.embed2 {
 		width: 50%;
 		padding-left: 0.75rem;
+		padding-top: 0;
 		flex-grow: 2;
 	}
 }
