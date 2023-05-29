@@ -15,11 +15,6 @@
 		line-height: 38px;
 	}
 
-	.underline {
-		text-decoration: underline !important;
-		text-decoration-color: red !important;
-	}
-
 	h3 /*for footer*/ {
 		font-family: "Arial";
 		font-size: 12px;
@@ -37,42 +32,6 @@
 		font-weight: 400;
 		line-height: 22px;
 		margin: 0;
-	}
-
-	.blacktext {
-		color: black;
-		background-color: white;
-		border-radius: 0.3rem;
-	}
-
-	.redtext {
-		color: red;
-		background-color: white;
-		border-radius: 0.3rem;
-	}
-
-	.redtext2 {
-		color: red;
-	}
-
-	.purdue {
-		color: #cfb991;
-	}
-
-	.spotify {
-		color: #1ed760;
-	}
-
-	.whitelink {
-		color: white;
-	}
-
-	.emojis {
-		letter-spacing: 0.01rem;
-	}
-
-	.section-divider {
-		text-align: center;
 	}
 
 	body {
@@ -105,16 +64,63 @@
 		margin-bottom: 1.75rem;
 	}
 
-	.embed1 {
+	.underline {
+		text-decoration: underline !important;
+		text-decoration-color: red !important;
+	}
+
+	.blacktext {
+		color: black;
+		background-color: white;
+		border-radius: 0.3rem;
+	}
+
+	.redtext {
+		color: red;
+		background-color: white;
+		border-radius: 0.3rem;
+	}
+
+	.redtext2 {
+		color: red;
+	}
+
+	.purdue {
+		color: #cfb991;
+	}
+
+	.spotify {
+		color: #1db954;
+	}
+
+	.whitelink {
+		color: white;
+	}
+
+	.emojis {
+		letter-spacing: 0.01rem;
+	}
+
+	.section-divider {
+		text-align: center;
+	}
+
+	.embed-twitter {
 		padding-bottom: 0.75rem;
 	}
 
-	.embed2 {
+	.embed-spotify {
 		padding-top: 0.75rem;
 	}
 
 	.contact-links {
 		color: white;
+	}
+
+	.albums-collage {
+		border-radius: 0.75rem;
+		max-width: 100%;
+		height: auto;
 	}
 }
 
@@ -159,13 +165,13 @@
 		display: flex;
 	}
 
-	.embed1 {
+	.embed-twitter {
 		width: 50%;
 		padding-right: 0.75rem;
 		padding-bottom: 0;
 	}
 
-	.embed2 {
+	.embed-spotify {
 		width: 50%;
 		padding-left: 0.75rem;
 		padding-top: 0;
@@ -224,11 +230,11 @@
 		display: flex;
 	}
 
-	.embed1 {
+	.embed-twitter {
 		padding-right: 1rem;
 	}
 
-	.embed2 {
+	.embed-spotify {
 		padding-left: 1rem;
 	}
 
@@ -249,11 +255,11 @@
 		letter-spacing: 0.45rem;
 	}
 
-	.embed1 {
+	.embed-twitter {
 		padding-right: 1.25rem;
 	}
 
-	.embed2 {
+	.embed-spotify {
 		padding-left: 1.25rem;
 	}
 }
@@ -277,11 +283,11 @@
 	body main {
 		margin-top: 2rem;
 	}
-	.embed1 {
+	.embed-twitter {
 		padding-right: 1.15rem;
 	}
 
-	.embed2 {
+	.embed-spotify {
 		padding-left: 1.15rem;
 	}
 }
@@ -291,11 +297,11 @@
 	body {
 		width: 61.5%;
 	}
-	.embed1 {
+	.embed-twitter {
 		padding-right: 1rem;
 	}
 
-	.embed2 {
+	.embed-spotify {
 		padding-left: 1rem;
 	}
 }
@@ -331,11 +337,11 @@
 	body {
 		width: 47.5%;
 	}
-	.embed1 {
+	.embed-twitter {
 		padding-right: 0.75rem;
 	}
 
-	.embed2 {
+	.embed-spotify {
 		padding-left: 0.75rem;
 	}
 }
