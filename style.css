@@ -1,6 +1,6 @@
 /*Galaxy S8+ */
 /*Width: 360px*/
-@media screen and (min-width: 360px) {
+@media screen /*and (min-width: 360px) */ {
 	html {
 		background-color: #191919;
 		scroll-behavior: smooth;
@@ -105,6 +105,14 @@
 		margin-bottom: 1.75rem;
 	}
 
+	.embed1 {
+		padding-bottom: 0.75rem;
+	}
+
+	.embed2 {
+		padding-top: 0.75rem;
+	}
+
 	.contact-links {
 		color: white;
 	}
@@ -117,14 +125,6 @@
 @media screen and (min-width: 375px) {
 	.emojis {
 		letter-spacing: 0.2rem;
-	}
-
-	.embed1 {
-		padding-bottom: 0.75rem;
-	}
-
-	.embed2 {
-		padding-top: 0.75rem;
 	}
 }
 
