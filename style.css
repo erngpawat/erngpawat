@@ -128,10 +128,6 @@
 		text-align: left;
 	}
 
-	.dropdown p {
-		text-decoration: underline;
-	}
-
 	.dropdown-content {
 		display: none;
 		position: relative;
@@ -139,14 +135,16 @@
 		z-index: 1;
 	}
 
-	.dropdown:hover .dropdown-content {
-		display: block;
-		position: relative;
+	.dropbtn {
+		background-color: #000000;
+		color: white;
+		text-decoration: underline;
+		text-align: left;
+		cursor: pointer;
 	}
 
-	.dropdown:hover {
-		color: #9d9d9d;
-		transition: 0.5s;
+	.show {
+		display: block;
 	}
 }
 
