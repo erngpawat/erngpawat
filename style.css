@@ -128,6 +128,10 @@
 		text-align: left;
 	}
 
+	.dropdown p {
+		text-decoration: underline;
+	}
+
 	.dropdown-content {
 		display: none;
 		position: relative;
@@ -141,7 +145,8 @@
 	}
 
 	.dropdown:hover {
-		color: #a8a8a8;
+		color: #9d9d9d;
+		transition: 0.5s;
 	}
 }
 
