@@ -4,7 +4,7 @@
 /*Width: 360px*/
 @media screen /*and (min-width: 360px) */ {
 	html {
-		background-color: #191919;
+		background-color: #000000;
 		scroll-behavior: smooth;
 		font-family: "Inter", sans-serif;
 	}
@@ -123,8 +123,25 @@
 		height: auto;
 	}
 
-	.music-month {
+	.dropdown {
+		position: relative;
+		text-align: left;
+	}
+
+	.dropdown-content {
+		display: none;
+		position: relative;
 		text-align: center;
+		z-index: 1;
+	}
+
+	.dropdown:hover .dropdown-content {
+		display: block;
+		position: relative;
+	}
+
+	.dropdown:hover {
+		color: #a8a8a8;
 	}
 }
 
