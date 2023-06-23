@@ -23,27 +23,27 @@ toggle between hiding and showing the dropdown content */
 // 	}
 // }
 
-window.addEventListener("load", function () {
-	// wait until the page loads before working with HTML elements
-	document.addEventListener("click", function (event) {
-		// click listener on the document
-		document.querySelectorAll(".dropdown-content").forEach(function (el) {
-			if (el !== event.target) {
-				el.classList.remove("show");
-			}
-		});
-		if (event.target.matches(".dropbtn")) {
-			event.target
-				.closest(".dropdown")
-				.querySelector(".dropdown-content")
-				.classList.toggle("show");
+// window.addEventListener("load", function () {
+// wait until the page loads before working with HTML elements
+document.addEventListener("click", function (event) {
+	// click listener on the document
+	document.querySelectorAll(".dropdown-content").forEach(function (el) {
+		if (el !== event.target) {
+			el.classList.remove("show");
 		}
 	});
+	if (event.target.matches(".dropbtn")) {
+		event.target
+			.closest(".dropdown")
+			.querySelector(".dropdown-content")
+			.classList.toggle("show");
+	}
+});
 
-	// prevent dropdown from closing when clicking inside the dropdown content
-	document.querySelectorAll(".dropdown-content").forEach(function (el) {
-		el.addEventListener("click", function (event) {
-			event.stopPropagation();
-		});
+// prevent dropdown from closing when clicking inside the dropdown content
+document.querySelectorAll(".dropdown-content").forEach(function (el) {
+	el.addEventListener("click", function (event) {
+		event.stopPropagation();
 	});
 });
+// });
